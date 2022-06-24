@@ -1,0 +1,101 @@
+*{
+	margin:  0px;
+	padding: 0px;
+}
+body{
+	min-height: 100vh;
+	background: red;
+}
+
+
+/* HEADER*/
+.header{
+	width: 100%;
+	height: 8%;
+	background: #fff;
+/*
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+*/
+}
+
+.empresa{
+	height: 100%;
+	width: 100%;
+	background-color: aquamarine;
+	padding: 5px;
+	padding-left: 10%
+}
+
+/*SECTOR DEL NAVEGADOR*/
+.navegador{
+	width: 100%;
+	height: 100%;
+}
+
+.lista_Navegador{
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+}
+.elemento_Navegador{
+	padding: 5px;
+}
+.boton_Navegador:hover{
+	color: grey;
+}
+
+
+
+/*CUERPO DE CONTENIDOS*/
+.exterior{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.izquierdo{
+	height: 85vh;
+	background-color: greenyellow;
+	display: grid;
+	grid-template-rows: 8% 3fr 3fr 15%;
+}
+.boton_Desplazamiento{
+	text-align-last: right;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	height: auto;
+}
+
+/*RADIO Y SU ELEMENTO*/
+.radio{
+	
+}
+#radio_Elemento{
+	background-color: blue;
+	width: 100%;
+	height: 100px;
+}
+audio{
+	margin: auto;
+}
+
+/*LOGOS O NOTICIAS */
+.noticias{
+	background-color: black;
+}
+.imagen_Logo{
+	width: 60%;
+	height: 100%;
+	background-image: url("img/LogoLigaDeFutbol.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center ;
+	margin: auto;
+}
+
+.derecho{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
